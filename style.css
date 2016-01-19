@@ -47,13 +47,12 @@ header {
   overflow: hidden;
   vertical-align: middle;
   background-color: rgba(0, 0, 0, 0.6);
-
-
+  
 }
 
 header img {
-  width: 250px;
-  margin-top: 160px;
+  width: 600px;
+  margin-top: 00px;
 }
 
 header h1, header h3 {
