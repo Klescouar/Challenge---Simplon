@@ -1,34 +1,77 @@
-header {
-  height: 400px;
+@font-face {
+  font-family: 'LiberationSans-Regular';
+  src: url('fonts/LiberationSans-Regular-webfont.woff');
+}
+
+header, section {
   display: flex;
-  background-color: red;
+}
+
+body {
+  font-family: "LiberationSans-Regular";
+}
+
+
+/* Needed when media queries will be set ? */
+
+
+/*body {
+  margin: 0;
+  width: 100%;
+  max-width: 1240px;
+}*/
+
+header {
+  height: 300px;
+  padding: 20px;
+  background-color: #48A0DE;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header h1, header h6 {
+  color: white;
 }
 
 header h1 {
-  color: white;
+  line-height: 0.6px;
 }
 
-header p {
-  color: white;
-}
-
-.logo {
+.name {
   flex: auto;
+  margin-left: 30px;
+}
+
+.name h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
 }
 
 .section1 {
-  height: 400px;
+  height: 300px;
+  background-color: #F7F5F3;
+  padding: 60px;
+  text-align: center;
+  align-items: center;
+}
+
+.section1 p {
+  font-size: 1.3rem;
+  color: black;
+  font-weight: bolder;
 }
 
 .section2 {
+
 }
 
 .section3 {
-height: 400px;
+  height: 200px;
+  background-color: #51B893;
 }
 
 footer {
   height: 200px;
+  background-color: #FFFFFF;
 }
