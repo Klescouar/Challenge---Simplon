@@ -3,12 +3,15 @@
   src: url('fonts/LiberationSans-Regular-webfont.woff');
 }
 
+
+
 header, section {
   display: flex;
 }
 
 body {
   font-family: "LiberationSans-Regular";
+
 }
 
 
@@ -24,10 +27,13 @@ body {
 header {
   height: 300px;
   padding: 20px;
-  background-color: #48A0DE;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  background: #FFF url(images/champs.jpg) no-repeat center center;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
 }
 
 header h1, header h6 {
@@ -67,8 +73,32 @@ header h1 {
 }
 
 .section3 {
-  height: 200px;
+  /*height: 200px;*/
   background-color: #51B893;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+}
+
+#mc_embed_signup {
+  text-align: center;
+}
+
+#mc_embed_signup * {
+  padding: 10px;
+}
+
+.section3 h2 {
+  font-size: 40px;
+  padding: 0px;
+  margin: 0;
+}
+
+.section3 input {
+  font-size: 30px;
+  border-radius: 4px;
+  border:0;
 }
 
 footer {
