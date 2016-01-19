@@ -20,8 +20,7 @@ header, section {
 }
 
 body {
-  /*The overflow-x property specifies whether to clip content*/
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 
 /* Needed when media queries will be set ? */
@@ -36,15 +35,16 @@ header {
   padding: 20px;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
-  background: #FFF url(images/champs.jpg) no-repeat center 55%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background: #FFF url(images/champs.jpg) no-repeat center 85%;
   /*width: 100%;*/
   background-size: cover;
   overflow: hidden;
 }
 
-header {
-  padding-top: -80px;
+header img {
+  width: 70%;
 }
 
 header h1, header h3 {
