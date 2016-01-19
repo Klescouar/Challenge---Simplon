@@ -3,21 +3,28 @@
   src: url('fonts/LiberationSans-Regular-webfont.woff');
 }
 
+@font-face {
+  font-family: 'LiberationSans-Bold';
+  src: url('fonts/LiberationSans-Bold-webfont.woff');
+  font-weight: bold;
+}
 
+@font-face {
+  font-family: 'LiberationSans-Italic';
+  src: url('fonts/LiberationSans-Italic-webfont.woff');
+  font-style: italic, oblique;
+}
 
 header, section {
   display: flex;
 }
 
 body {
-  font-family: "LiberationSans-Regular";
-
+  /*The overflow-x property specifies whether to clip content*/
+  overflow-x: hidden;
 }
 
-
 /* Needed when media queries will be set ? */
-
-
 /*body {
   margin: 0;
   width: 100%;
@@ -30,13 +37,17 @@ header {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  background: #FFF url(images/champs.jpg) no-repeat center center;
-  width: 100%;
+  background: #FFF url(images/champs.jpg) no-repeat center 55%;
+  /*width: 100%;*/
   background-size: cover;
   overflow: hidden;
 }
 
-header h1, header h6 {
+header {
+  padding-top: -80px;
+}
+
+header h1, header h3 {
   color: white;
 }
 
@@ -54,31 +65,37 @@ header h1 {
   text-transform: uppercase;
 }
 
+.name h3 {
+  /*font-weight: bold;*/
+  /*font-style: italic;*/
+  /*font-size: 5rem;*/
+  /*text-transform: uppercase;*/
+}
+
 .section1 {
   height: 300px;
   background-color: #F7F5F3;
   padding: 60px;
   text-align: center;
   align-items: center;
+  box-shadow: 0 -2px 50px black;
 }
 
 .section1 p {
   font-size: 1.3rem;
   color: black;
-  font-weight: bolder;
 }
 
-.section2 {
-
-}
+.section2 {}
 
 .section3 {
   /*height: 200px;*/
   background-color: #51B893;
   justify-content: center;
   align-items: center;
-  padding: 30px;
-
+  /*padding: 30px;*/
+  box-shadow: 0px 0px 10px black;
+  z-index: 2;
 }
 
 #mc_embed_signup {
@@ -87,6 +104,10 @@ header h1 {
 
 #mc_embed_signup * {
   padding: 10px;
+}
+
+#mc_embed_signup h2 {
+  color: white;
 }
 
 .section3 h2 {
@@ -98,10 +119,14 @@ header h1 {
 .section3 input {
   font-size: 30px;
   border-radius: 4px;
-  border:0;
+  border: 0;
 }
 
 footer {
   height: 200px;
   background-color: #FFFFFF;
+}
+
+footer p {
+  padding-top:10px;
 }
