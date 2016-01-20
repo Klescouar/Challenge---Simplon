@@ -1,17 +1,17 @@
 @font-face {
   font-family: 'LiberationSans-Regular';
-  src: url('fonts/LiberationSans-Regular-webfont.woff');
+  src: url('../fonts/LiberationSans-Regular-webfont.woff');
 }
 
 @font-face {
   font-family: 'LiberationSans-Bold';
-  src: url('fonts/LiberationSans-Bold-webfont.woff');
+  src: url('../fonts/LiberationSans-Bold-webfont.woff');
   font-weight: bold;
 }
 
 @font-face {
   font-family: 'LiberationSans-Italic';
-  src: url('fonts/LiberationSans-Italic-webfont.woff');
+  src: url('../fonts/LiberationSans-Italic-webfont.woff');
   font-style: italic, oblique;
 }
 
@@ -21,7 +21,7 @@ header, section {
 
 body {
   /*overflow-x: hidden;*/
-  background: #FFF url(chemin.jpeg) no-repeat center center;
+  background: #FFF url(../images/chemin.jpeg) no-repeat center center;
   background-attachment: fixed;
   background-blend-mode: ;
 }
