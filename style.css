@@ -23,10 +23,13 @@ body {
   /*overflow-x: hidden;*/
   background: #FFF url(chemin.jpeg) no-repeat center center;
   background-attachment: fixed;
-  background-blend-mode:;
+  background-blend-mode: ;
 }
 
+
 /* Needed when media queries will be set ? */
+
+
 /*body {
   margin: 0;
   width: 100%;
@@ -34,7 +37,7 @@ body {
 }*/
 
 header {
-  height: 570px;
+  height: 100%;
   padding: 20px;
   align-items: center;
   justify-content: space-between;
@@ -47,12 +50,11 @@ header {
   overflow: hidden;
   vertical-align: middle;
   background-color: rgba(0, 0, 0, 0.6);
-
 }
 
 header img {
-  width: 600px;
-  margin-top: 00px;
+  width: 50%;
+  margin-bottom: 5.8%;
 }
 
 header h1, header h3 {
@@ -81,7 +83,7 @@ header h1 {
 }
 
 .section1 {
-  height: 400px;
+  height: auto;
   background-color: #F7F5F3;
   padding: 60px;
   text-align: center;
@@ -91,11 +93,30 @@ header h1 {
 
 .section1 p {
   font-size: 1.3rem;
+  /*font-size: 1.7vw;*/
   color: black;
 }
 
+/*@media (max-width: 920px) {
+  .section1 p {
+    font-size: 2.3vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .section1 p {
+    font-size: 2.8vw;
+  }
+}
+
+@media (max-width: 550px) {
+  .section1 p {
+    font-size: 3.2vw;
+  }
+}*/
+
 .section2 {
-box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
 .section3 {
@@ -129,33 +150,30 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 #mc_embed_signup .required {
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.5) inset;
-  color:#444;
+  color: #444;
   font-size: 1.5em;
   text-align: center;
   padding: 10px 20px 10px 20px;
 }
+
 #mc_embed_signup .button {
-background-color: rgba(100, 100, 100, 0.2);
-/*background: none;*/
-border:1px solid black;
-color:#EEE;
-box-shadow: 0 0 5px 1px black;
-font-size: 1.5em;
-margin-top:-15px;
-padding:6px 10px 6px 10px;
-transition: all 0.2s ease-in-out;
+  background-color: rgba(100, 100, 100, 0.2);
+  /*background: none;*/
+  border: 1px solid black;
+  color: #EEE;
+  box-shadow: 0 0 5px 1px black;
+  font-size: 1.5em;
+  margin-top: -15px;
+  padding: 6px 10px 6px 10px;
+  transition: all 0.2s ease-in-out;
 }
 
 #mc_embed_signup .button:hover {
   background-color: rgba(200, 200, 200, 0.2);
 }
 
-
-
-
-  .section3 h1 {
-  padding:0;
-
+.section3 h1 {
+  padding: 0;
 }
 
 .section3 input {
@@ -172,11 +190,10 @@ footer {
 
 footer i {
   margin: 65px 40px 0 40px;
-  transition: all 0.5s ease-in-out;
-
+  transition: all 0.1s ease-in-out;
+  color: #222;
 }
 
-
-footer i :hover {
-background-color: rgba(0, 0, 0, 0.1);
- }
+footer i:hover {
+  color: rgba(200, 200, 200, 1);
+}
