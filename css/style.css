@@ -127,7 +127,8 @@ header h1 {
   color: #444;
   font-size: 1.5em;
   text-align: center;
-  padding: 10px 50px 10px 50px;
+  padding: 10px 20px 10px 20px;
+  width: 40%;
 }
 
 #mc_embed_signup .button {
