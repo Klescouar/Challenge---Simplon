@@ -41,12 +41,6 @@ header img {
   width: 50%;
 }
 
-@media (max-width: 600px) {
-  header img {
-    width: 70%;
-  }
-}
-
 header h1, header h3 {
   color: white;
 }
@@ -124,7 +118,7 @@ header h1 {
 #mc_embed_signup .required {
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.5) inset;
-  color: #444;
+  color: #CCC;
   font-size: 1.5em;
   text-align: center;
   padding: 10px 20px 10px 20px;
@@ -141,6 +135,7 @@ header h1 {
   margin-top: -15px;
   padding: 6px 10px 6px 10px;
   transition: all 0.2s ease-in-out;
+  margin-bottom:20px;
 }
 
 #mc_embed_signup .button:hover {
@@ -171,4 +166,16 @@ footer i {
 
 footer i:hover {
   color: rgba(200, 200, 200, 1);
+}
+
+@media (max-width: 600px) {
+  header img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 360px) {
+  .section1 {
+    padding: 40px 30px 40px 30px;
+  }
 }
